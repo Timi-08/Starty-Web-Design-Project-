@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+:root {
+  --main-colour: rgb(30, 100, 230);
+  --text-colour: rgb(140, 152, 164);
+  --header-colour: rgb(72, 83, 98);
+  --main-white-colour: rgb(255, 255, 255);
+}
+body {
+  font-size: 15px;
+}
+.btn {
+  background-color: var(--main-colour);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 14px 30px;
+  border-radius: 5px; /*Not all buttons have this radius so you can give a class to remove the radius for the ones that dont have it*/
+  text-decoration: none;
+  box-shadow: 0 3px 5px 0 rgba(50, 116, 240, 0.3);
+  transition: all 0.3s;
+}
+.btn--lg {
+  padding: 10px 20px;
+}
