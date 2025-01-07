@@ -1,0 +1,14 @@
+@media (max-width: 950px) {
+  .main-menu {
+    display: none;
+  }
+  .homepage {
+    padding-top: 80px;
+  }
+  .nav-bar i {
+    font-size: 1.4rem;
+  }
+  .menu {
+    display: block;
+  }
+}
