@@ -1,0 +1,207 @@
+@media (max-width: 1340px) {
+  .short-img {
+    width: auto;
+  }
+  .reservation {
+    left: 12rem;
+  }
+  .blog-img {
+    width: 250px;
+  }
+  .blog {
+    width: 250px;
+  }
+}
+@media (max-width: 1250px) {
+  .ig-blog {
+    top: 40px;
+    left: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .ig-blog {
+    top: 30px;
+    left: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .ig-blog {
+    top: 69px;
+    left: 69px;
+  }
+}
+
+@media (max-width: 950px) {
+  .our-story {
+    margin-top: 4rem;
+  }
+  .main-menu {
+    display: none;
+  }
+  .homepage {
+    padding-top: 80px;
+  }
+  .nav-bar i {
+    font-size: 1.4rem;
+  }
+  .menu {
+    display: block;
+  }
+  .rest-menu {
+    padding: 0 21px;
+  }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-sec {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .blog-img {
+    width: 350px;
+  }
+  .blog {
+    width: 350px;
+  }
+  footer {
+    height: 85vh;
+  }
+  footer::before {
+    height: 85vh;
+  }
+  .end-credits {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sec-links {
+    display: block;
+  }
+  .sec-links a {
+    padding: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .ig-blog {
+    top: 55px;
+    left: 55px;
+  }
+}
+@media (max-width: 770px) {
+  .content {
+    margin-top: 30px;
+  }
+  .content h1 {
+    font-size: 56px;
+  }
+  .menu-tab {
+    text-align: center;
+    font-size: 12px;
+  }
+  .our-story {
+    padding: 0 20px;
+  }
+  .short-img {
+    width: auto;
+  }
+  .menu-sec {
+    height: 230vh;
+  }
+  .menu-sec::before {
+    height: 230vh;
+  }
+  .rest-menu {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .reservation {
+    left: 5rem;
+  }
+  .blog-sec {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .blog-img {
+    width: 450px;
+  }
+  .blog {
+    width: 450px;
+  }
+  .ig-blog {
+    top: 80px;
+    left: 80px;
+  }
+  .follow {
+    top: -150px;
+    opacity: 0;
+  }
+}
+@media (max-width: 650px) {
+  .reservation {
+    right: 2rem;
+    left: 2rem;
+    padding: 1rem !important;
+    margin-left: 0;
+  }
+  .our-story h4 {
+    font-size: 24px;
+  }
+  .our-story p {
+    font-size: 14px;
+  }
+  .ig-blog {
+    top: 80px;
+    left: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+  }
+  .menu-tab {
+    flex-wrap: wrap;
+  }
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rest-blog {
+    margin-top: 12rem;
+  }
+  .follow {
+    top: -120px;
+  }
+  .ig-blog {
+    top: 50px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 470px) {
+  .blog-img {
+    width: 350px;
+  }
+  .blog {
+    width: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .ig-blog {
+    top: 65px;
+    left: 65px;
+  }
+  .follow {
+    top: -140px;
+  }
+}
