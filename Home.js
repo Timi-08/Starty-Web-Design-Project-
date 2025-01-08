@@ -47,7 +47,24 @@ window.addEventListener("scroll", function () {
     navIcons.forEach((icon) => icon.classList.remove("scrolled"));
   }
 });
-
+window.addEventListener("scroll", function () {
+  const dropdownLinks = document.querySelectorAll(".dropdown-menu li a");
+  if (window.scrollY > 50) {
+    // Adjust the scroll position as needed
+    dropdownLinks.forEach((link) => link.classList.add("scrolled"));
+  } else {
+    dropdownLinks.forEach((link) => link.classList.remove("scrolled"));
+  }
+});
+window.addEventListener("scroll", function () {
+  const dropdownLinks = document.querySelectorAll(".dropdown-menu-icon li a");
+  if (window.scrollY > 50) {
+    // Adjust the scroll position as needed
+    dropdownLinks.forEach((link) => link.classList.add("scrolled"));
+  } else {
+    dropdownLinks.forEach((link) => link.classList.remove("scrolled"));
+  }
+});
 $(".bottom-slider").slick({
   slidesToShow: 9,
   slidesToScroll: 1,
