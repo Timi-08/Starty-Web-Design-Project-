@@ -22,7 +22,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.5px;
   padding: 14px 30px;
-  border-radius: 5px; /*Not all buttons have this radius so you can give a class to remove the radius for the ones that dont have it*/
+  /* border-radius: 5px; Not all buttons have this radius so you can give a class to remove the radius for the ones that dont have it */
   text-decoration: none;
   box-shadow: 0 3px 5px 0 rgba(50, 116, 240, 0.3);
   transition: all 0.3s;
