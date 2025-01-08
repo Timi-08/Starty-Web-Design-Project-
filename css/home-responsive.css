@@ -143,6 +143,7 @@
   .follow {
     top: -150px;
     opacity: 0;
+    visibility: hidden;
   }
 }
 @media (max-width: 650px) {
