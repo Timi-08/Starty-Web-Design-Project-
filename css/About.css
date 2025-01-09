@@ -62,7 +62,7 @@ header {
   width: 100%;
 }
 .first-section {
-  background-image: url(images/about-img/first-about-img.jpg);
+  background-image: url(../images/about-img/first-about-img.jpg);
   height: 80vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ header {
 }
 
 .fourth-section {
-  background-image: url(images/fourth-background-image.jpg);
+  background-image: url(../images/about-img/fourth-background-image.jpg);
   height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
