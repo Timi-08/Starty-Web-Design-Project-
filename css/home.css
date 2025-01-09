@@ -127,16 +127,6 @@ nav ul li:hover .dropdown-menu {
   font-family: Noto Sans, sans-serif !important;
   color: var(--header-colour);
 }
-.dropdown-menu-icon li a:active {
-  color: var(--main-colour);
-}
-
-.dropdown-menu-icon li a.scrolled:active {
-  color: var(--main-colour);
-}
-.nav-bar i:active .dropdown-menu-icon {
-  display: flex;
-}
 
 .dropdown-menu-icon li a:hover {
   color: var(--main-colour);
