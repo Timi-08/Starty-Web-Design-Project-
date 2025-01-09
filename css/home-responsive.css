@@ -44,6 +44,14 @@
   .nav-bar i {
     font-size: 1.4rem;
   }
+  .icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .ri-search-line {
+    font-size: 1.2rem !important;
+  }
   .menu {
     display: block;
   }
@@ -153,6 +161,7 @@
     padding: 1rem !important;
     margin-left: 0;
   }
+
   .our-story h4 {
     font-size: 24px;
   }
@@ -170,6 +179,10 @@
   }
   .menu-tab {
     flex-wrap: wrap;
+    padding: 21px 35px;
+  }
+  .menu-tab a {
+    font-size: 16px;
   }
   .services {
     grid-template-columns: repeat(1, 1fr);
